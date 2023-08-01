@@ -1,0 +1,35 @@
+.footer {
+  &-desc {
+    background-color: #353c36;
+    color: #fff;
+    display: flex;
+    padding: 36px 16px;
+    gap: 16px;
+    text-align: left;
+  }
+
+  &-content {
+    h4 {
+      color: #56b947;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 20px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    p {
+      color: #fff;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 8px;
+    }
+    span {
+      display: block;
+      margin-top: 40px;
+      font-size: 10px;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}
