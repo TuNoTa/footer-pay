@@ -6,6 +6,7 @@
     padding: 36px 16px;
     gap: 16px;
     text-align: left;
+    margin-bottom: 20px;
   }
 
   &-content {
@@ -32,4 +33,36 @@
       line-height: normal;
     }
   }
+  //   Bottom bar
+  &-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #fff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    position: relative;
+
+    .footer-btn {
+      color: #989898;
+      font-size: 15px;
+      font-weight: 400;
+    }
+  }
+}
+
+.footer-bar::before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border-color: red;
+  border-style: solid;
+  border-width: 1px;
+
 }
